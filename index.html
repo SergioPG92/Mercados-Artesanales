@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mercados Artesanales</title>
+    <!-- Se relacionan los archivos necesarios para el framework, para el estilo general de la página y las dos fuentes externas que se usarán. -->
+    <link rel="stylesheet" href="estilo/framework.css">
+    <link rel="stylesheet" href="estilo/custom.css">
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Metamorphous&family=Trocchi&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=MedievalSharp&family=Metamorphous&family=Trocchi&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper"> 
+    <!-- Header. Común para todas las páginas. Contiene el logo de la empresa y un título. -->
+        <header class="row">
+            <div class="col-12 fondoHeader contFlex contAlinCentro">
+                <img class="col-3" src="imagenes/mercadosvg1.svg" alt="logo-mercado">
+                <h1 class="col-9 titulo">MERCADOS ARTESANALES</h1>
+            </div>
+        </header>
+    <!-- Nav. Común para todas las páginas. Tiene los input que nos llevan a las demás secciones. Además tiene un búscador para poder añadir la funcionalidad en el futuro. -->
+        <nav class="row">
+            <form action="index.html">
+                <input class="col-2 botonNav" type="submit" value="Inicio">
+            </form>
+            <form action="mercados.html">
+                <input class="col-2 botonNav" type="submit" value="Galería Mercados">
+            </form>
+            <form action="contacto.html">
+                <input class="col-2 botonNav" type="submit" value="Contacto">
+            </form>
+            <form action="historia.html">
+                <input class="col-2 botonNav" type="submit" value="Historia">
+            </form>
+            <div class="col-4 botonNav">
+                <form class="altura100" action="" method="GET">
+                    <div class="col-10 contFlex contAlinCentro altura100">
+                        <input class="col-12 botonNav inpText" type="text" name="busqueda" placeholder="Buscar..." >
+                    </div>
+                    <button class="col-2 botonNav contFlex contAlinCentro" type="submit"><img class="btnBus" src="imagenes/search_16dp_FFD700_FILL0_wght400_GRAD0_opsz20.svg" alt="logo_lupa"></button>
+                </form>
+            </div>
+        </nav>
+     <!-- Main. Es un row en el que introduciremos el contenido principal de la web. Tiene una parte section que será el contenido más centrado y otra parte aside para contenido en el lateral-->
+        <main class="row">
+            <section class="col-9">
+    <!-- Los elementos article contienen a su vez los elementos visibles de la web, sirven para agruparlos y diferenciarlos de los demás según el contenido.--> 
+                <article class="row">
+                    <img class="col-6" src="imagenes/principal/arte-medieval-wide_webp.webp" alt="img_mitologia">
+                    <div class="col-6">
+                        <p class="subtitulo">Lorem Ipsum</p>
+                        <p>Sed sed risus et justo ultrices scelerisque id sit amet purus. Nam odio enim, egestas at consectetur in, molestie hendrerit quam. Pellentesque at mauris at sem rhoncus ullamcorper. Nam porta lectus odio, at efficitur sapien vulputate nec. Nullam vulputate nisi ultrices condimentum condimentum. Curabitur ultrices nisl diam, sit amet mollis justo auctor non. Maecenas viverra, justo in pulvinar blandit, lectus magna bibendum purus, sit amet imperdiet arcu metus in lorem. Vestibulum lacus lorem, blandit nec molestie eget, dignissim id purus. Donec mollis faucibus libero ac varius. Morbi vitae pellentesque lorem. Aliquam dapibus, magna hendrerit sagittis pulvinar, enim nisi molestie urna, non volutpat mi mauris at orci. Sed pretium, purus nec ornare sodales, ipsum odio vestibulum urna, sed vehicula eros risus eget est. Pellentesque in est eget nisl tempus auctor sed porta nulla. Quisque in purus mollis, semper nulla vitae, tincidunt lectus. Nunc eleifend ut elit ac mattis. Nullam feugiat ex at mi vehicula vestibulum.</p>
+                    </div>
+                </article>
+                <article class="row">
+                    <div class="col-6">
+                        <p class="subtitulo">Lorem Ipsum</p>
+                        <p>Morbi sollicitudin mauris vel eros efficitur laoreet. Quisque ut felis sit amet eros ultricies pretium. Nam dapibus felis quis nisi tempor, nec tempor orci gravida. Sed mattis, est tristique auctor sodales, elit sem bibendum lectus, et ornare orci arcu at justo. Aliquam suscipit, purus sit amet ullamcorper aliquam, ipsum urna posuere diam, a convallis sapien mauris ac augue. Maecenas leo velit, luctus eu rhoncus sed, volutpat ut orci. Maecenas cursus tortor quis lorem gravida, vitae efficitur sapien viverra. Vestibulum cursus interdum magna, eu vestibulum quam viverra nec. Donec pellentesque, enim vel pellentesque bibendum, elit massa pellentesque ante, vel vehicula nunc quam et erat. Fusce et pulvinar orci. Pellentesque tempor et arcu sed eleifend. Ut tortor ante, cursus a ipsum in, feugiat interdum libero. Aliquam in dapibus erat, sit amet bibendum massa. Curabitur commodo, massa et iaculis porta, sapien turpis pellentesque nulla, ut vehicula dui tellus at urna. Sed ullamcorper ac massa vel congue. Quisque quam ipsum, aliquam eget lectus nec, accumsan rutrum orci.</p>
+                    </div>
+                    <img src="imagenes/principal/cnne-1513840-arte-medieval.webp" alt="img_traicion" class="col-6">
+                </article>
+                <article class="row">
+                    <img class="col-6" src="imagenes/principal/estudios medievales.webp" alt="img_medievo">
+                    <div class="col-6">
+                        <p class="subtitulo">Lorem Ipsum</p>
+                        <p>Praesent suscipit eu ipsum ac finibus. Sed laoreet venenatis tincidunt. Praesent orci purus, rutrum in convallis a, convallis et erat. In imperdiet elit sit amet ex vulputate eleifend. Aenean vitae consequat ante, sit amet placerat ligula. Proin porttitor dolor sit amet ipsum maximus, eu volutpat ante posuere. Praesent vulputate felis vitae nibh facilisis vestibulum. Praesent non quam odio. Nulla rhoncus nunc vel arcu blandit bibendum. Aenean eget fermentum sem, ac auctor sem. Duis tristique sem tortor, id imperdiet est pellentesque vel. Pellentesque lacinia velit nulla, non laoreet metus tempus vel. Etiam congue interdum mauris, sit amet placerat sem tincidunt in.
+
+                        Phasellus massa ligula, euismod lobortis ultricies non, bibendum non augue. Praesent viverra, libero eu volutpat consequat, mi nisl euismod nibh, sed pulvinar erat lectus in magna. Vivamus in dapibus nisl. Sed odio elit, molestie in mauris a, bibendum fermentum nisi. Donec quis consectetur ante. Nam justo justo, faucibus ut varius in, ultrices nec sapien. Vestibulum orci odio, malesuada ut ante sit amet, malesuada pharetra odio.</p>
+                    </div>
+                </article>
+                <article class="row">
+                    <div class="col-6">
+                        <p class="subtitulo">Lorem Ipsum</p>
+                        <p> Nam porta lectus odio, at efficitur sapien vulputate nec. Nullam vulputate nisi ultrices condimentum condimentum. Curabitur ultrices nisl diam, sit amet mollis justo auctor non. Maecenas viverra, justo in pulvinar blandit, lectus magna bibendum purus, sit amet imperdiet arcu metus in lorem. Vestibulum lacus lorem, blandit nec molestie eget, dignissim id purus. Donec mollis faucibus libero ac varius. Morbi vitae pellentesque lorem. Aliquam dapibus, magna hendrerit sagittis pulvinar, enim nisi molestie urna, non volutpat mi mauris at orci. Sed pretium, purus nec ornare sodales, ipsum odio vestibulum urna, sed vehicula eros risus eget est. Pellentesque in est eget nisl tempus auctor sed porta nulla. Quisque in purus mollis, semper nulla vitae, tincidunt lectus. Nunc eleifend ut elit ac mattis. Nullam feugiat ex at mi vehicula vestibulum.</p>
+                    </div>
+                    <img src="imagenes/principal/medieval-market-squares.webp" alt="img_mercado1" class="col-6">
+                </article>
+                <article class="row">
+                    <img class="col-6" src="imagenes/principal/torneos-medievales-1-768x434.webp" alt="img_justa">
+                    <div class="col-6">
+                        <p class="subtitulo">Lorem Ipsum</p>
+                        <p>Aliquam erat volutpat. Suspendisse dictum nulla nec dui eleifend sodales. Fusce tristique lectus porttitor libero bibendum fringilla. Sed et orci sagittis, hendrerit sem ac, imperdiet sem. Duis faucibus consectetur orci, et commodo est. Curabitur ullamcorper efficitur posuere. Nullam gravida erat risus, id ultricies mi rutrum sed. Nullam ante lorem, mollis imperdiet enim nec, sagittis viverra mauris. Quisque volutpat velit egestas volutpat dignissim. Pellentesque in lectus sit amet magna malesuada volutpat.
+                        </p>
+                    </div>
+                </article>
+                
+
+            </section>
+    <!-- Aside es el contenido lateral, donde junto al contenido extra colocaremos publicidad. -->
+            <aside class="col-3 ">
+                <div class="row">
+                    <img src="imagenes/banner.gif" alt="banner_publi" class="col-12">
+                </div>
+                <div class="row">
+                    <p> Vestibulum lacus lorem, blandit nec molestie eget, dignissim id purus. Donec mollis faucibus libero ac varius. Morbi vitae pellentesque lorem. Aliquam dapibus, magna hendrerit sagittis pulvinar, enim nisi molestie urna, non volutpat mi mauris at orci. Sed pretium, purus nec ornare sodales, ipsum odio vestibulum urna, sed vehicula eros risus eget est. Pellentesque in est eget nisl tempus auctor sed porta nulla. Quisque in purus mollis, semper nulla vitae, tincidunt lectus. Nunc eleifend ut elit ac mattis. Nullam feugiat ex at mi vehicula vestibulum.</p>
+                </div>
+                
+                <div class="row">
+                    <img src="imagenes/banner.gif" alt="banner_publi" class="col-12">
+                </div>
+                <div class="row">
+                    <p>Sed sed risus et justo ultrices scelerisque id sit amet purus. Nam odio enim, egestas at consectetur in, molestie hendrerit quam. Pellentesque at mauris at sem rhoncus ullamcorper. Nam porta lectus odio, at efficitur sapien vulputate nec. Nullam vulputate nisi ultrices condimentum condimentum.  Vestibulum lacus lorem, blandit nec molestie eget, dignissim id purus. Donec mollis faucibus libero ac varius. Morbi vitae pellentesque lorem. Aliquam dapibus, magna hendrerit sagittis pulvinar, enim nisi molestie urna, non volutpat mi mauris at orci. Sed pretium, purus nec ornare sodales, ipsum odio vestibulum urna, sed vehicula eros risus eget est. Pellentesque in est eget nisl tempus auctor sed porta nulla. Quisque in purus mollis, semper nulla vitae, tincidunt lectus. Nunc eleifend ut elit ac mattis. Nullam feugiat ex at mi vehicula vestibulum.</p>
+                </div>
+                <div class="row">
+                    <img src="imagenes/banner.gif" alt="banner_publi" class="col-12">
+                </div>
+                <div class="row">
+                    <p>Sed sed risus et justo ultrices scelerisque id sit amet purus. Nam odio enim, egestas at consectetur in, molestie hendrerit quam. Pellentesque at mauris at sem rhoncus ullamcorper. Nam porta lectus odio, at efficitur sapien vulputate nec. Nullam vulputate nisi ultrices condimentum condimentum. Curabitur ultrices nisl diam, sit amet mollis justo auctor non. Maecenas viverra, justo in pulvinar blandit, lectus magna bibendum purus, sit amet imperdiet arcu metus in lorem. Vestibulum lacus lorem, blandit nec molestie eget, dignissim id purus. Donec mollis faucibus libero ac varius. Morbi vitae pellentesque lorem. Aliquam dapibus, magna hendrerit sagittis pulvinar, enim nisi molestie urna, non volutpat mi mauris at orci. Sed pretium, purus nec ornare sodales, ipsum odio vestibulum urna, sed vehicula eros risus eget est.</p>
+                </div>
+                <div class="row">
+                    <img src="imagenes/banner.gif" alt="banner_publi" class="col-12">
+                </div>
+                <div class="row">
+                    <p>Sed sed risus et justo ultrices scelerisque id sit amet purus. Nam odio enim, egestas at consectetur in, molestie hendrerit quam. Pellentesque at mauris at sem rhoncus ullamcorper. Nam porta lectus odio, at efficitur sapien vulputate nec. Nullam vulputate nisi ultrices condimentum condimentum. Curabitur ultrices nisl diam, sit amet mollis justo auctor non. Maecenas viverra, justo in pulvinar blandit, lectus magna bibendum purus, sit amet imperdiet arcu metus in lorem. Vestibulum lacus lorem, blandit nec molestie eget, dignissim id purus. Donec mollis faucibus libero ac varius. Morbi vitae pellentesque lorem. Aliquam dapibus, magna hendrerit sagittis pulvinar, enim nisi molestie urna, non volutpat mi mauris at orci. Sed pretium, purus nec ornare sodales, ipsum odio vestibulum urna, sed vehicula eros risus eget est. Pellentesque in est eget nisl tempus auctor sed porta nulla. Quisque in purus mollis, semper nulla vitae, tincidunt lectus. Nunc eleifend ut elit ac mattis. Nullam feugiat ex at mi vehicula vestibulum.</p>
+                </div>
+                <div class="row">
+                    <img src="imagenes/banner.gif" alt="banner_publi" class="col-12">
+                </div>
+                <div class="row">
+                    <p>Sed sed risus et justo ultrices scelerisque id sit amet purus. Nam odio enim, egestas at consectetur in, molestie hendrerit quam. Pellentesque at mauris at sem rhoncus ullamcorper. Nam porta lectus odio, at efficitur sapien vulputate nec. Nullam vulputate nisi ultrices condimentum condimentum. Curabitur ultrices nisl diam, sit amet mollis justo auctor non. Maecenas viverra, justo in pulvinar blandit, lectus magna bibendum purus, sit amet imperdiet arcu metus in lorem. Vestibulum lacus lorem, blandit nec molestie eget, dignissim id purus. Donec mollis faucibus libero ac varius. Morbi vitae pellentesque lorem. Aliquam dapibus, magna hendrerit sagittis pulvinar, enim nisi molestie urna, non volutpat mi mauris at orci. Sed pretium, purus nec ornare sodales, ipsum odio vestibulum urna, sed vehicula eros risus eget est. Pellentesque in est eget nisl tempus auctor sed porta nulla. Quisque in purus mollis, semper nulla vitae, tincidunt lectus. Nunc eleifend ut elit ac mattis. Nullam feugiat ex at mi vehicula vestibulum.</p>
+                </div>
+                
+            </aside>
+
+            
+        </main>
+    <!-- El footer dispone del logo de la empresa, su nombre, así como de información de la empresa y algunos enlaces de interés -->
+        <footer class="row">
+            <!-- Utilizamos espacios en blanco para colocar debidamente ciertos elementos-->
+            <div class="col-3 altura100">
+                    <img src="imagenes/mercadosvg1.svg" alt="logo-mercado" class="col-12">
+            </div>
+            <div class="col-3 contFlex FlexCol altura100 justEven margIz12">
+                <div class="col-12">
+                    <img src="imagenes/footer/direccion.svg" alt="logo_dir" class="col-2">
+                    <p class="col-10">C/Cervantes, 32, Murcia, 30001</p>
+                </div>
+                <div class="col-12">
+                    <img src="imagenes/footer/tel.svg" alt="logo_tel" class="col-2">
+                    <p class="col-10">Teléfono: 968181818</p>
+                </div>
+                <div class="col-12">
+                    <img src="imagenes/footer/mail.svg" alt="logo_mail" class="col-2">
+                    <p class="col-10">Email: personal@mercartesanal.es </p>
+                </div>
+               
+            </div>
+            <div class="col-3 contFlex FlexCol altura100 justEven margIz12">
+                <div class="col-12">
+                    <img src="imagenes/footer/faqs.svg" alt="logo_faqs" class="col-2">
+                    <a class="col-10" href="">
+                        <p>FAQs</p>
+                    </a>
+                </div>
+                <div class="col-12">
+                    <img src="imagenes/footer/colab.svg" alt="logo_colab" class="col-2">
+                    <a class="col-10" href="">
+                        <p>Colabora</p>
+                    </a>
+                </div>
+                <div class="col-12">
+                    <img src="imagenes/footer/trab.svg" alt="logo_trab" class="col-2">
+                    <a class="col-10" href="">
+                        <p>Trabaja con nosotros</p>
+                    </a>
+                </div>
+                
+            </div>
+            
+        </footer>
+        
+
+        
+    </div>
+</body>
+</html>
