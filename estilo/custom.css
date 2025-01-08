@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    height: auto;
+}
+
+.wrapper{
+    height:auto;
+    background-color: tan;  /* Fondo de color que tendrá el contenido principal de la página. */
+}
+
+
+/*  Elementos header */
+
+.fondoHeader{
+    background-image: url(/imagenes/aljibe80.webp);  /* Usamos la imágen aljibe para usarla de fondo del header. */
+    background-size: cover; /* Definimos que la imagen cubra todo el div */
+    background-position: center; 
+    background-color: rgb(0, 0, 0,0.7); 
+    background-blend-mode: darken; /* Definimos un fondo oscuro con opacidad y hacemos que la imagen se mezcle con él, para lograr que sea más oscura y mejore la visualización de los elementos  */
+}
+
+/* Elementos nav */
+
+nav{
+    position:sticky;  /* Nos permite hacer que la barra de navegación sea pegajosa. Con un top:0px conseguimos que esté pegada al límite superior de la ventana. */
+    top: 0px;
+    
+}
+
+.botonNav{       /* Estilo de los botones de la barra de navegación */
+    height: 30px;
+    background-color: darkgreen;
+    height: 60px;
+    border:none;
+    color: gold;
+    
+}
+
+.inpText{
+    background-color: #ffd700;  /* Estilo del input buscador */
+    border-radius: 9px;
+    color: darkgreen;
+    border: none;
+    outline:none;
+    height: 30px;
+}
+
+.btnBus{ /* Estilo de la imagen del buscador */
+    border: 1px solid gold;
+    border-radius: 10px;   
+}
+
+
+/* Elementos article */
+
+.btnContacto{     /* Estilo de los input de la página contacto. */
+    background-color: maroon;
+    color: whitesmoke;
+    border:  none;
+    border-radius: 9px;
+    padding: 0.4em 0.5em;
+}
+
+
+/* Elementos footer */
+
+footer{  /* Estilo general del pie de página. */
+    background-color:darkred;
+    color: silver;
+    height: 320px;
+}
+
+footer a{  /*Estilo de los enlaces en el pie de página */
+    text-decoration: none;
+    color: silver;
+}
+
+footer p{
+    padding: 11px 0 0 5px;
+}
+
+
+/* Posicionamiento */ 
+
+.contFlex{ /* Contenedor flex */ 
+    display: flex;
+}
+
+.FlexCol{ /* Contenedor flex con dirección columna */ 
+    flex-direction: column;
+}
+
+.contAlinCentro{ /* Elementos del contenedor alineados */ 
+    align-items: center;
+}
+
+.justEven{
+    justify-content: space-evenly;
+}
+
+/* Margenes y padding */
+
+.margIz12{
+    margin-left: 12%;
+}
+
+
+
+.padHor1{
+    padding: 0 1%;
+}
+
+.padHor5{
+    padding-left:5% ;
+    padding-right: 5%;
+}
+
+.padVer1{
+    padding: 1% 0;
+}
+.padVer7{
+    padding:7% 0;
+}
+
+
+
+/* Tamaños */
+
+.altura100{
+    height: 100%;
+}
+
+.altura1em{
+    height: 1em;
+}
+
+
+
+/* Textos y fuentes */
+
+.titulo{    /* Título de la página */ 
+    color: indigo;
+    font-size: 4em;
+    text-shadow: 2px 2px 3px red;
+    text-align: center;
+    font-family: "Metamorphous","Medievalsharp";
+}
+
+.subtitulo{ /* Títulos de los párrafos */
+    font-family: "Imperial Script", cursive;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.tituloGrande{ /* Títulos grandes de article  */
+    font-family: "MedievalSharp";
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.botonNav {  /* Fuente del botón de la barra de navegación */
+    font-size:1em;
+    font-family: "Metamorphous","Medievalsharp";
+}
+
+.tituloContacto{   /* Letra de los tipos de contacto. */
+    text-align: center;
+    font-size: 1.5em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.textoContacto{    /* Definición de los tipos de contacto */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.textoAlin{ /* Texto alineado al centro */
+    text-align: center;
+}
+
+p{  /* Estilo de los párrafos */
+    margin: 0;
+    font-family: "Metamorphous";
+    font-size: 0.8em;
+    text-align: justify;
+    padding: 3%;
+}

@@ -1,0 +1,84 @@
+:root{
+
+    --base: 1600;
+    --tbase: calc(var(--base)*1px);
+    --tcolumna: calc(var(--base)/12);
+    --pcolumna: calc(var(--tcolumna)/ var(--base) *100%);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: var(--tbase);
+    margin: 0 auto;
+}
+
+.row{
+    clear: both;
+}
+
+.col-1{
+    float: left;
+    width: var(--pcolumna);
+}
+
+.col-2{
+    float: left;
+    width: calc(var(--pcolumna)*2);
+}
+
+.col-3{
+    float: left;
+    width: calc(var(--pcolumna)*3);
+}
+
+.col-4{
+    float: left;
+    width: calc(var(--pcolumna)*4);
+}
+
+.col-5{
+    float: left;
+    width: calc(var(--pcolumna)*5);
+}
+
+.col-6{
+    float: left;
+    width: calc(var(--pcolumna)*6);
+}
+
+.col-7{
+    float: left;
+    width: calc(var(--pcolumna)*7);
+}
+
+.col-8{
+    float: left;
+    width: calc(var(--pcolumna)*8);
+}
+
+.col-9{
+    float: left;
+    width: calc(var(--pcolumna)*9);
+}
+
+.col-10{
+    float: left;
+    width: calc(var(--pcolumna)*10);
+}
+
+.col-11{
+    float: left;
+    width: calc(var(--pcolumna)*11);
+}
+
+.col-12{
+    float: left;
+    width: calc(var(--pcolumna)*12);
+}
+
+
+
